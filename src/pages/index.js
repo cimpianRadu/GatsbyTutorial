@@ -11,11 +11,8 @@ export default () => {
   const posts = usePosts();
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
       <Layout>
-        <h1>Hello Frontend Masters!</h1>
-        <Link to="/about">Check about me &rarr;</Link>
-
         <h3>Read my posts</h3>
         {posts.map(post => (
           <PostPreview key={post.slug} post={post} />
