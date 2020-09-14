@@ -32,7 +32,7 @@ const Header = () => (
     `}
   >
     <NavLink fontWeight="bold" to="/">
-      RGB Site
+      <h2>Radu's site</h2>
     </NavLink>
     <nav
       css={css`
